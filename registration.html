@@ -7,32 +7,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="background-image">
     <div class="main">
         <h1>Registration Form</h1>
-        <form action="" class="registration-form">
+        <form action="index.html" method="get" class="Log-in">
             <h3>Personal Details</h3>
             <section class="personal-details">
                 <div class="items">
-                    <label for="name">
-                        <p>Full name:</p>
-                        <input type="text" name="name" id="name" placeholder="Enter Your Name"required>
+                    <label for="lastname">
+                        <p>Last Name:</p>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name" required>
                     </label>
-                    <label for="fname">
-                        <p>Father's name:</p>
-                        <input type="text" name="fname" id="fname" placeholder="Enter Your Father's name"required>
+                    <label for="firstname">
+                        <p>First Name:</p>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name" required>
                     </label>
-                    <label for="mName">
-                        <p>Mother's name:</p>
-                        <input type="text" name="mName" id="nmName" placeholder="Enter Your Mother's name"required>
+                    <label for="middlename">
+                        <p>Middle Name:</p>
+                        <input type="text" name="middlename" id="middlename" placeholder="Enter Your Middle Name" required>
+                    </label>
+                    <label for="password"> 
+                        <p>Password:</p> 
+                        <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+                    </label>
+                    <label for="email"> 
+                        <p>Email address:</p> 
+                        <input type="text" name="email" id="email" placeholder="Enter Your email" required>
                     </label>
                     <label for="DOB">
                         <p>DOB:</p>
-                        <input type="date" name="DOB" id="DOB" placeholder="Enter Your DOB"required>
-                    </label>
-                    <label for="Email">
-                        <p>Email:</p>
-                        <input type="text" name="email" id="email" placeholder="Enter Your email"required>
+                        <input type="date" name="DOB" id="DOB" placeholder="Enter Your DOB" required>
                     </label>
                     <label for="gender">
                         <p>Gender:</p>
@@ -40,15 +44,16 @@
                             <option value="gender">Male</option>
                             <option value="gender">Female</option>
                             <option value="gender">Other</option>
+                        </select>
                     </label>
                     <div class="wrap">
-                        <button type="submit"
-                                onclick="onclick()">
+                        <button type="submit" onclick="onclick()">
                             Submit
                         </button>
-                    </div>  
+                    </div>
                 </div>
-            </section>   
+            </section>
         </form>
+    </div>
 </body>
 </html>
