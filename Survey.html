@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-image">
+
+    <div class="main">
+        <h1>Course Survey Form</h1>
+
+        <form action="#" method="post">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Your Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Your Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="courses">Courses (Please choose the course you are Enrolled in):</label>
+            <select id="courses" name="courses" required>
+                <option value="BSIT">BSIT</option>
+                <option value="BSCS">BSCS</option>
+                <option value="BSHM">BSHM</option>
+                <option value="BSTM">BSTM</option>
+                <!-- Add more courses as needed -->
+            </select>
+
+            <label for="feedback">Additional Comments or Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
