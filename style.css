@@ -68,3 +68,82 @@ button{
     align-items: center;
 
 }
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label input {
+    margin-right: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    margin: 80px auto;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select {
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    width: 100%;
+    font-size: 16px;
+}
+.img-full-width {
+    width: 100%;
+}
+
+.img-full-height {
+    height: 100%;
+}
+.background-image {
+    background: url('img/back.jpg') center/cover no-repeat;
+}
